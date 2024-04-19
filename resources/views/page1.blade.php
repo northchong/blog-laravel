@@ -1,8 +1,7 @@
 @extends('./partials/layout')
 {{-- või ('partials.layout'), laraveli eelistatud --}}
-@section('title', 'Home')
+@section('title', 'Page 1')
 
 @section('content')
-    <h1>Home</h1>
-    <h1>Hello, {{ $name }}</h1>
+    <h1>Page 1</h1>
 @endsection
